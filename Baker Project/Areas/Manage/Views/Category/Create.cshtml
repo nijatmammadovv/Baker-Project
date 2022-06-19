@@ -1,0 +1,15 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <div>
+        <button class="btn btn-secondary" type="submit">Create</button>
+    </div>
+</form>
+
